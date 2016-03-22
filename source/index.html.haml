@@ -1,0 +1,22 @@
+---
+title: Home
+
+toc:
+- title: Breakout
+  url: "/breakout"
+
+- title: Phaser - Hello World
+  url: "/phaser_hello_world"
+
+- title: Phaser - Platformer Tutorial
+  url: "/phaser_tut_02"
+
+- title: Star Splinter
+  url: "/star_splinter"
+---
+
+%ul.main_menu
+  - current_resource.data.toc.each do |resource|
+    %li.main_menu-item
+      %a{ href: resource.url }
+        = resource.title

@@ -1,0 +1,38 @@
+@mixin output_class($placeholder_name, $aliases: ()) {
+  .#{$placeholder_name} {
+    @extend %#{$placeholder_name};
+  }
+
+  @each $alias in $aliases {
+    .#{$alias} {
+      @extend %#{$placeholder_name};
+    }
+  }
+}
+
+$max-width:         1440px !default;
+
+$breakpoint-max:    1296px !default;
+$breakpoint-large:  1008px !default;
+$breakpoint-mid:    840px  !default;
+$breakpoint-small:  640px  !default;
+
+$radius:   4px !default;
+$baseline: 6px !default;
+$gutter:   $baseline * 3 !default;
+
+// font stacks
+$helvetica: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+$georgia:   Georgia, Times, 'Times New Roman', serif;
+$monospace: Consolas, Monaco, Menlo, 'Courier New', monospace;
+
+$body-font: $helvetica !default;
+
+// colors
+$white:        #fff;
+$black:        #000    !default;
+
+$bg_color:     #BDC3CA;
+$text_color:   #B54D4D;
+
+$body-antialiasing: inherit !default;
