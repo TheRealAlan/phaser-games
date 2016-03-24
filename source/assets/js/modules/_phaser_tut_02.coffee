@@ -4,10 +4,10 @@ class window.Game
     @game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: @preload, create: @create, update: @update })
 
   preload: () =>
-    @game.load.image('sky', '/assets/images/sky.png')
-    @game.load.image('ground', '/assets/images/platform.png')
-    @game.load.image('star', '/assets/images/star.png')
-    @game.load.spritesheet('dude', '/assets/images/dude.png', 32, 48)
+    @game.load.image('sky', '/assets/images/phaser_tut_02/sky.png')
+    @game.load.image('ground', '/assets/images/phaser_tut_02/platform.png')
+    @game.load.image('star', '/assets/images/phaser_tut_02/star.png')
+    @game.load.spritesheet('dude', '/assets/images/phaser_tut_02/dude.png', 32, 48)
 
   create: () =>
     # level stuff
