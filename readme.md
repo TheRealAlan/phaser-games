@@ -1,6 +1,6 @@
 # Phaser Experiments & Tutorials
 
-This is acting like a jounal of my venture into building games. I'm using [phaser.js](http://phaser.io/) and using a [Middleman](https://middlemanapp.com/) build to run everything. I'm writing with CoffeeScript so sorry.
+This is sort of a journal of my venture into building games. I'm using [phaser.js](http://phaser.io/) and using a [Middleman](https://middlemanapp.com/) build to run everything. I'm writing with CoffeeScript, so sorry.
 
 ## Setup
 
