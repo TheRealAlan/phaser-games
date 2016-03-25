@@ -29,3 +29,5 @@ Start the server:
 ``` bash
 rake server
 ```
+
+Visit `localhost:4567` and have some fun.
